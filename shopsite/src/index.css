@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face { 
+    font-family: "devShop"; 
+    src: url("./utils/Assistant-Regular.ttf"); 
+} 
+body{
+    box-sizing: border-box;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    font-family: "devShop";
+}
